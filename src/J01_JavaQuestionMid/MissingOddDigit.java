@@ -6,6 +6,8 @@ public class MissingOddDigit {
     public static void main(String[] args) {
 
         int [] str = {1,3,5,7,9,13,15,17,19};
+     // How do we find the missing odd number in a sequence of odd numbers?
+     // Answer = 11
         int newOdd = findMissingOdd(str);
         System.out.println(newOdd);
 
